@@ -142,7 +142,7 @@
 <br>
 <br>
 
-### 3. コメント作成
+### 4. コメント作成
 
 <p align="left">
   <img src="/screenshots/comment-create-xl1.svg" width="50%" alt="comment-create-xl1" />
@@ -166,7 +166,7 @@
 <br>
 <br>
 
-### 4. Board作成
+### 5. Board作成
 
 <p align="left">
   <img src="/screenshots/board_create-xl1.svg" width="50%" alt="board_create-xl1" />
@@ -188,7 +188,7 @@
 <br>
 <br>
 
-### 5. Board編集
+### 6. Board編集
 
 <p align="left">
   <img src="/screenshots/board_editBtn-xl1.svg" width="50%" alt="board_editBtn-xl1" />
@@ -211,7 +211,7 @@
 <br>
 <br>
 
-### 6. Topic作成
+### 7. Topic作成
 
 <p align="left">
   <img src="/screenshots/topic_create-xl1.svg" width="50%" alt="topic_create-xl1" />
@@ -237,7 +237,7 @@
 <br>
 <br>
 
-### 7.Topic編集
+### 8.Topic編集
 
 <p align="left">
   <img src="/screenshots/topic_editBtn1-xl.svg" width="50%" alt="topic_editBtn1-xl" />
@@ -268,7 +268,7 @@
 <br>
 <br>
 
-### 8.プロフィール編集
+### 9.プロフィール編集
 
 <p align="left">
   <img src="/screenshots/profile_editBtn-xl1.svg" width="50%" alt="profile_editBtn-xl1" />
@@ -299,7 +299,7 @@
 <br>
 <br>
 
-### 9.会員登録
+### 10.会員登録
 <p align="left">
   <img src="/screenshots/signup_xl1.svg" width="50%" alt="signup_xl1" />
 </p>
@@ -313,7 +313,7 @@
 <br>
 <br>
 
-### 9.ログイン
+### 11.ログイン
 <p align="left">
   <img src="/screenshots/login_xl1.svg" width="50%" alt="signup_xl1" />
 </p>
@@ -328,7 +328,7 @@
 <br>
 <br>
 
-### 9.ログアウト
+### 12.ログアウト
 <p align="left">
   <img src="/screenshots/profile_editBtn-xl1.svg" width="50%" alt="profile_editBtn-xl1" />
 </p>
