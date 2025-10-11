@@ -64,3 +64,276 @@
 ---
 
 <br><br><br>
+## スクリーンショット
+
+### 1. Board一覧ページ
+
+<p align="left">
+  <img src="/screenshots/board_index-xl.svg" width="50%" alt="Board一覧ページxl" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_index-s.svg" width="50%" alt="Board一覧ページs" />
+</p>
+
+<br>
+<br>
+<br>
+
+### 2. Topic一覧ページ
+<p align="left">
+  <img src="/screenshots/topics_index-xl1.svg" width="50%" alt="Topic一覧ページ-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topics_index-xl2.svg" width="50%" alt="Topic一覧ページ-xl2" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topics_index-s1.svg" width="50%" alt="Topic一覧ページ-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topics_index-s2.svg" width="50%" alt="Topic一覧ページ-s2" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topics_index-s3.svg" width="50%" alt="Topic一覧ページ-s3" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topics_index-s4.svg" width="50%" alt="Topic一覧ページ-s4" />
+</p>
+
+
+<br>
+<br>
+<br>
+
+### 3. Topic詳細ページ
+
+<p align="left">
+  <img src="/screenshots/topic_show-xl1.svg" width="50%" alt="Topic詳細ページ-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_show-xl2.svg" width="50%" alt="Topic詳細ページ-xl2" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_show-xl3.svg" width="50%" alt="Topic詳細ページ-xl3" />
+</p>
+
+
+<p align="left">
+  <img src="/screenshots/topic_show-s1.svg" width="50%" alt="Topic詳細ページ-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_show-s2.svg" width="50%" alt="Topic詳細ページ-s2" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_show-s3.svg" width="50%" alt="Topic詳細ページ-s3" />
+</p>
+
+
+<br>
+<br>
+<br>
+
+### 3. コメント作成
+
+<p align="left">
+  <img src="/screenshots/comment-create-xl1.svg" width="50%" alt="comment-create-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/comment-create-s1.svg" width="50%" alt="comment-create-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/comment-create-success-xl1.svg" width="50%" alt="comment-create-success-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/comment-create-success-s1.svg" width="50%" alt="comment-create-success-s1" />
+</p>
+
+
+
+<br>
+<br>
+<br>
+
+### 4. Board作成
+
+<p align="left">
+  <img src="/screenshots/board_create-xl1.svg" width="50%" alt="board_create-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_create-s1.svg" width="50%" alt="board_create-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_create-success-xl1.svg" width="50%" alt="board_create-success-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_create-success-s1.svg" width="50%" alt="board_create-success-s1" />
+</p>
+
+<br>
+<br>
+<br>
+
+### 5. Board編集
+
+<p align="left">
+  <img src="/screenshots/board_editBtn-xl1.svg" width="50%" alt="board_editBtn-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_editBtn-s1.svg" width="50%" alt="board_editBtn-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_edit-xl1.svg" width="50%" alt="board_edit-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/board_edit-xl2.svg" width="50%" alt="board_edit-xl2" />
+</p>
+
+
+<br>
+<br>
+<br>
+
+### 6. Topic作成
+
+<p align="left">
+  <img src="/screenshots/topic_create-xl1.svg" width="50%" alt="topic_create-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_create-xl2.svg" width="50%" alt="topic_create-xl2" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_create-xl3.svg" width="50%" alt="topic_create-xl3" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_create-success1-xl.svg" width="50%" alt="topic_create-success1-xl" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_create-success1-s.svg" width="50%" alt="topic_create-success1-s" />
+</p>
+
+<br>
+<br>
+<br>
+
+### 7.Topic編集
+
+<p align="left">
+  <img src="/screenshots/topic_editBtn1-xl.svg" width="50%" alt="topic_editBtn1-xl" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_editBtn2-xl.svg" width="50%" alt="topic_editBtn1-s" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_editBtn1-s.svg" width="50%" alt="topic_editBtn1-s" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_edit-xl1.svg" width="50%" alt="topic_edit-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_edit-success-xl1.svg" width="50%" alt="topic_edit-success-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/topic_edit-success-s1.svg" width="50%" alt="topic_edit-success-s1" />
+</p>
+
+
+<br>
+<br>
+<br>
+
+### 8.プロフィール編集
+
+<p align="left">
+  <img src="/screenshots/profile_editBtn-xl1.svg" width="50%" alt="profile_editBtn-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/profile_editBtn-s1.svg" width="50%" alt="profile_editBtn-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/profile_edit-xl1.svg" width="50%" alt="topic_editBtn1-s" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/profile_edit-s1.svg" width="50%" alt="profile_edit-s1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/profile_edit-success-xl1.svg" width="50%" alt="profile_edit-success-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/profile_edit-success-s1.svg" width="50%" alt="profile_edit-success-s1" />
+</p>
+
+
+<br>
+<br>
+<br>
+
+### 9.会員登録
+<p align="left">
+  <img src="/screenshots/signup_xl1.svg" width="50%" alt="signup_xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/signup_s1.svg" width="50%" alt="signup_s1" />
+</p>
+
+
+<br>
+<br>
+<br>
+
+### 9.ログイン
+<p align="left">
+  <img src="/screenshots/login_xl1.svg" width="50%" alt="signup_xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/login_s1.svg" width="50%" alt="signup_s1" />
+</p>
+
+
+
+<br>
+<br>
+<br>
+
+### 9.ログアウト
+<p align="left">
+  <img src="/screenshots/profile_editBtn-xl1.svg" width="50%" alt="profile_editBtn-xl1" />
+</p>
+
+<p align="left">
+  <img src="/screenshots/profile_editBtn-s1.svg" width="50%" alt="profile_editBtn-s1" />
+</p>
+
