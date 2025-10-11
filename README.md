@@ -145,7 +145,7 @@
 ### 4. コメント作成
 
 <p align="left">
-  <img src="/screenshots/comment-create-xl1.svg" width="50%" alt="comment-create-xl1" />
+  <img src="/screenshots/comment_create-xl1.svg" width="50%" alt="comment_create-xl1" />
 </p>
 
 <p align="left">
