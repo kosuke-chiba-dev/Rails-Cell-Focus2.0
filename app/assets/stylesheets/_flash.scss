@@ -1,0 +1,58 @@
+.flash-container {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  max-width: 300px;
+  pointer-events: none; 
+}
+
+
+.flash {
+  pointer-events: auto; 
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  line-height: 1.45;
+
+  background: rgba(17, 24, 39, 0.96); 
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  width: fit-content;
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  animation: flash-in .16s ease-out both;
+
+  &--descriptions {
+    list-style: disc inside;
+    padding: 10px 12px;
+
+    li {
+      margin: 2px 0 0 0;
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .flash-container {
+    left: 12px;
+    right: 12px;
+    max-width: none;
+  }
+}
+
+@keyframes flash-in {
+  from { transform: translateY(-6px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+

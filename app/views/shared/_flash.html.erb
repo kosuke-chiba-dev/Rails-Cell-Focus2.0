@@ -1,0 +1,18 @@
+<% if flash.present? %>
+  <div class="flash-container">
+    <% flash.each do |key, value| %>
+      <% if key.to_s != "descriptions" %>
+        <% Array(value).flatten.each do |msg| %>
+          <div class="flash <%= key %>"><%= msg %></div>
+        <% end %>
+      <% else %>
+        <ul class="flash flash--descriptions">
+          <% Array(value).flatten.each do |description| %>
+            <li><%= description %></li>
+          <% end %>
+        </ul>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>
+

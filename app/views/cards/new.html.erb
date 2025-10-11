@@ -1,0 +1,23 @@
+<div class="form_inner max_width">
+  <h2 class="form_title">New Topic</h2>
+  <div class="boards_new_container">
+    <%= form_with model: [@board, @card], html: { multipart: true },  method: 'post', local: true do |f| %>
+      <div class="field">
+        <%= f.label :title, "タイトル", class: "form_label" %>
+        <%= f.text_field :title, class: "form_input" %>
+      </div>
+      <div class="field">
+        <%= f.label :description, "内容", class: "form_label" %>
+        <%= f.text_area :description, class: "form_input form_input_textArea" %>
+      </div>
+      <div class="field">
+        <%= f.label :thumbnail, "サムネイル画像", class: "form_label" %>
+        <%= f.file_field :thumbnail, accept: "image/*" %>
+      </div>
+      <div class="actions">
+        <%= f.submit "追加する" %>
+      </div>
+    <% end %>
+  </div>
+  <%= link_to "カード一覧へ戻る", board_path(@board),  class: "back_link"%>
+</div>

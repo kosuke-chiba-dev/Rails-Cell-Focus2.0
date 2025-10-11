@@ -1,0 +1,35 @@
+<div class="board_show_inner max_width">
+  <h2 class="board_name"><%=@board.name %></h2>
+  <h2 class="page_title">Topics</h2>
+  <div class="card_container">
+    <div class="card_items">
+      <% @cards.each do |card| %>
+        <div class="card_item">
+          <%= link_to [@board, card], class: "card_item_link", aria: { label: "詳細を見る" } do %>
+            <% if card.thumbnail.attached? %>
+              <%= image_tag url_for(card.thumbnail),
+                alt: card.title,
+                loading: :lazy,
+                class: "card_thumb" %>
+            <% else %>
+              <div class="no_image" aria-hidden="true">No image</div>
+            <% end %>
+            <div class="card_item_textArea">
+              <h3 class="card_item_title"><%= card.title %></h3>
+              <p class="card_item_description"><span><%= card.description %></span></p>
+            </div>
+            <div class="card_item_bottom">
+              <div class="card_item_user_avatar"><%= avatar_for(card.user, size: 40) %></div>
+              <div class="card_item_comment">
+                <div class="card_item_comment_count"><%= card.comments.count%></div>
+                <div class="card_item_comment_icon"><%= image_tag "comment-icon.png"%></div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <%= link_to "+ Add new Topic", new_board_card_path(@board),  class: "add_card_link"%>
+  </div>
+  <%= link_to "ボード一覧へ戻る", boards_path,  class: "back_link"%>
+</div>

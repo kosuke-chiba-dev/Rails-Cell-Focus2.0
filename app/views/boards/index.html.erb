@@ -1,0 +1,28 @@
+<div class="boards_index_inner max_width">
+  <h2 class="page_title">All Boards</h2>
+  <div class="boards_index_container">
+    <% @boards.each do |board| %>
+      <div class="board_item">
+        <%= link_to board_path(board), class: "board_item_link", aria: { label: "詳細を見る" } do %>
+          <div class="board_item_textArea">
+            <h3 class="board_item_name"><%= board.name %></h3>
+            <p class="board_item_description"><span><%= board.description %></span></p>
+          </div>
+          <div class="board_item_user_avatar"><%= avatar_for(board.user, size: 32)  %></div>
+        <% end %>
+        <% if user_signed_in? && board.user_id == current_user.id %>
+          <button class="action_btn" type="button">
+            <span class="action_btn_circle"></span>
+            <span class="action_btn_circle"></span>
+            <span class="action_btn_circle"></span>
+          </button>
+          <div class="action_btnArea">
+            <%= link_to "Edit", edit_board_path(board), class: "action_btn_edit" %>
+            <%= link_to "Delete", board_path(board),   data: { turbo_method: :delete, turbo_confirm: "本当に削除しますか？" }, class: "action_btn_delete" %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+    <%= link_to "+ Add new Board", new_board_path, class: "board_item add_board_link" %>
+  </div>
+</div>

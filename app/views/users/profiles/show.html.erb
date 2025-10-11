@@ -1,0 +1,11 @@
+<div class="profile_show_inner max_width">
+    <h2 class="page_title">プロフィール</h2>
+    <div class="profile_container">
+        <div class="profile_avatar"><%= avatar_for(@profile.user) %></div>
+        <div class="profile_textArea">
+        <h3 class="profile_nickname">ニックネーム: <%= @profile.nickname%></h3>
+        <p class="profile_birthday">誕生日: <%= @profile.age%></p>
+        </div>
+    </div>
+    <%= link_to "戻る", :back,  class: "back_link"%>
+</div>

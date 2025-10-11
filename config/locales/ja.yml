@@ -1,0 +1,71 @@
+ja:
+  activerecord:
+    models:
+      board: ボード
+      card: カード
+      comment: コメント
+      profile: プロフィール
+    attributes:
+      board:
+        name: タイトル
+        description: 説明
+      card:
+        title: タイトル
+        description: 説明
+        thumbnail: サムネイル
+        position: 並び順
+      comment:
+        body: 本文
+      profile:
+        nickname: ニックネーム
+        birthday: 誕生日
+        avatar: アバター
+
+  errors:
+    messages:
+      blank: を入力してください
+      too_short: は%{count}文字以上で入力してください
+      too_long: は%{count}文字以内で入力してください
+
+  # フラッシュ文言
+  flash:
+    boards:
+      create:
+        success: ボードの作成に成功しました。
+        failure: ボードの作成に失敗しました。
+      update:
+        success: 更新できました。
+        failure: 更新できませんでした。
+      destroy:
+        success: 削除に成功しました。
+
+    cards:
+      create:
+        success: カードを追加しました。
+        failure: カードを作成できませんでした。
+      update:
+        success: 更新できました。
+        failure: 更新できませんでした。
+      destroy:
+        success: 削除できました。
+
+    comments:
+      create:
+        success: コメントを追加しました。
+        failure: コメントを追加できませんでした。
+      destroy:
+        success: コメントを削除しました。
+
+    profiles:
+      require_create: まずプロフィールを作成してください。
+      already_created: プロフィールは作成済みです。編集してください。
+      create:
+        success: プロフィールを作成しました。
+        failure: プロフィールを作成できませんでした。
+      update:
+        success: プロフィールを更新しました。
+        failure: プロフィールを更新できませんでした。
+
+    labels:
+      notice: お知らせ
+      alert: エラー

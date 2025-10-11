@@ -1,0 +1,12 @@
+<div class="profile_show_inner max_width">
+    <h2 class="page_title">プロフィール</h2>
+    <div class="profile_container">
+        <div class="profile_avatar"><%= avatar_for(@profile.user) %></div>
+        <div class="profile_textArea">
+        <h3 class="profile_nickname">ニックネーム: <%= @profile.nickname%></h3>
+        <p class="profile_birthday">誕生日: <%= @profile.age%></p>
+        </div>
+        <%= link_to "プロフィールを編集する", edit_profile_path, class: "profile_edit_link"%>
+    </div>
+<%= link_to "ボード一覧へ戻る", boards_path,  class: "back_link"%>
+</div>

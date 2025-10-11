@@ -1,0 +1,53 @@
+<div class="card_show_inner max_width">
+  <div class="card_show_top_container">
+    <div class="card_show_top">
+      <h2 class="topic_title"><%= @card.title %></h2>
+      <% if user_signed_in? && @card.user_id == current_user.id %>
+        <button class="card_action_btn" type="button">
+          <span class="action_btn_circle"></span>
+          <span class="action_btn_circle"></span>
+          <span class="action_btn_circle"></span>
+        </button>
+        <div class="card_action_btnArea">
+          <%= link_to "Edit", edit_board_card_path(@board, @card), class: "action_btn_edit" %>
+          <%= link_to "Delete", board_card_path(@board, @card),   data: { turbo_method: :delete, turbo_confirm: "本当に削除しますか？" }, class: "action_btn_delete" %>
+        </div>
+      <% end %>
+    </div>
+    <h3 class="page_title card_show_title">Topic</h3>
+  </div>
+  <div class="card_contents">
+    <% if @card.thumbnail.attached? %>
+      <div class="card_thumbnail"><%= image_tag @card.thumbnail %></div>
+    <% else %>
+      <div class="no_image" aria-hidden="true">No image</div>
+    <% end %>
+    <p class="card_description"><%= @card.description %></p>
+  </div>
+  <div class="comments_container">
+    <h3 class="comments_title">Chat</h3>
+    <div class="comments_items">
+      <% @comments.each do |comment| %>
+        <div class="comment_item">
+          <div class="comment_icon">
+            <% if current_user === comment.user %>
+              <%= link_to profile_path, class: "comment_icon_link" do %>
+                <%= avatar_for(comment.user, size: 40)%>
+              <% end %>
+            <% else %>
+              <%= link_to user_profile_path(comment.user), class: "comment_icon_link" do %>
+                <%= avatar_for(comment.user, size: 40)%>
+              <% end %>
+            <% end%>
+          </div>
+          <p class="comment_body"><%= comment.body %></p>
+          <% if user_signed_in? && comment.user_id == current_user.id %>
+            <%= link_to "Delete", board_card_comment_path(@board, @card, comment),   data: { turbo_method: :delete, turbo_confirm: "本当に削除しますか？" }, class: "comment_delete" %>
+          <% end %>
+        </div>
+      <% end %>
+      <%= link_to "+ Add new comment", new_board_card_comment_path(@board, @card),  class: "add_comment_link"%>
+    </div>
+  </div>
+  <%= link_to "Topic一覧へ戻る", board_path(@board),  class: "back_link"%>
+</div>
