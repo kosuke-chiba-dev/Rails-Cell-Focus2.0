@@ -150,7 +150,7 @@
 </p>
 
 <p align="left">
-  <img src="/screenshots/comment-create-s1.svg" width="50%" alt="comment-create-s1" />
+  <img src="/screenshots/comment_create-s1.svg" width="50%" alt="comment-create-s1" />
 </p>
 <br><br>
 
