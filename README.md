@@ -143,7 +143,7 @@
 <br>
 
 ### 4. メッセージ作成
-<b>4-1. メッセージ入力</b>
+## 4-1. メッセージ入力
 <br>
 <p align="left">
   <img src="/screenshots/comment_create-xl1.svg" width="50%" alt="comment_create-xl1" />
@@ -153,7 +153,8 @@
   <img src="/screenshots/comment-create-s1.svg" width="50%" alt="comment-create-s1" />
 </p>
 <br><br>
-<b>4-2. メッセージ送信成功</b>
+
+## 4-2. メッセージ送信成功
 <br>
 <p align="left">
   <img src="/screenshots/comment-create-success-xl1.svg" width="50%" alt="comment-create-success-xl1" />
