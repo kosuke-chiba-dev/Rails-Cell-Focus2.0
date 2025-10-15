@@ -498,6 +498,33 @@ html, body {
   &.form_input_textArea {
     padding-top: 8px; padding-bottom: 8px; height: 150px;
   }
+  &.comment_textarea{
+    padding-top: 8px; padding-bottom: 8px; resize: none;
+    width: 100%;
+    height: auto;
+    field-sizing: content; 
+  }
+}
+
+.new-comment-form{
+  margin-top: 80px;
+  display: flex;
+  gap: 10px;
+}
+
+.comment_submit{
+  width: 80px;
+  border: 1px solid #2166f3;
+  background-color: #2166f3;
+  padding: 10px 12px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  color: #fff;
+  text-align: center;
+  transition: background-color ease .3s, color ease .3s;
+  align-self: flex-end;
+  &:hover { background-color: #fff; color: #2166f3; }
 }
 
 .actions {

@@ -1,6 +1,6 @@
 import "@hotwired/turbo-rails"
 import "controllers"
-
+import "comment_form"
 
 document.addEventListener('turbo:load', () => {
   if (window.__bindActionMenu) return;   
@@ -64,6 +64,26 @@ document.addEventListener('turbo:load', () => {
     document.querySelectorAll('.avatar-img, .card_action_btn').forEach(b => b.setAttribute('aria-expanded', 'false'));
     document.querySelectorAll('.avatar_logoutArea, .card_action_btnArea').forEach(a => a.setAttribute('aria-hidden', 'true'));
   });
+});
+
+
+
+function initFlashAutoDismiss() {
+  document.querySelectorAll('.flash').forEach((el) => {
+    if (el.dataset.bound === 'true') return;
+    el.dataset.bound = 'true';
+
+    if (el.dataset.autohide === 'false') return;
+
+    setTimeout(() => {
+      el.classList.add('is-fading');     
+      setTimeout(() => el.remove(), 3600); 
+    }, 3000);
+  });
+}
+document.addEventListener('turbo:load', initFlashAutoDismiss);
+document.addEventListener('turbo:before-cache', () => {
+  document.querySelectorAll('.flash').forEach((el) => el.remove());
 });
 
 

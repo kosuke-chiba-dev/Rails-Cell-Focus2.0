@@ -1,0 +1,17 @@
+<div class="comment_item">
+  <div class="comment_icon">
+    <% if current_user === comment.user %>
+      <%= link_to profile_path, class: "comment_icon_link" do %>
+        <%= avatar_for(comment.user, size: 40)%>
+      <% end %>
+    <% else %>
+      <%= link_to user_profile_path(comment.user), class: "comment_icon_link" do %>
+        <%= avatar_for(comment.user, size: 40)%>
+      <% end %>
+    <% end%>
+  </div>
+  <p class="comment_body"><%= comment.body %></p>
+  <% if user_signed_in? && comment.user_id == current_user.id %>
+    <%= link_to "Delete", board_card_comment_path(@board, @card, comment),   data: { turbo_method: :delete, turbo_confirm: "本当に削除しますか？" }, class: "comment_delete" %>
+  <% end %>
+</div>

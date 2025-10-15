@@ -21,7 +21,7 @@ Rails.application.routes.draw do
 
   resources :boards do
     resources :cards do
-      resources :comments, only: [ :new, :create, :destroy ]
+      resources :comments, only: [ :create, :destroy ]
     end
   end
 
