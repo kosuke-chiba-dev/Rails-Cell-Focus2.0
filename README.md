@@ -143,7 +143,7 @@
 <br>
 
 ### 4. コメント作成
-- コメント入力
+4-1. コメント入力
 <p align="left">
   <img src="/screenshots/comment_create-xl1.svg" width="50%" alt="comment_create-xl1" />
 </p>
@@ -151,8 +151,8 @@
 <p align="left">
   <img src="/screenshots/comment-create-s1.svg" width="50%" alt="comment-create-s1" />
 </p>
-
-- コメント送信成功
+<br><br>
+4-2. コメント送信成功
 <p align="left">
   <img src="/screenshots/comment-create-success-xl1.svg" width="50%" alt="comment-create-success-xl1" />
 </p>
