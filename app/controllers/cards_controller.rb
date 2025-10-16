@@ -22,7 +22,7 @@ class CardsController < ApplicationController
   end
 
   def show
-    @comments = @card.comments.order(created_at: :desc)
+    @comments = @card.comments.order(created_at: :asc)
   end
 
   def edit

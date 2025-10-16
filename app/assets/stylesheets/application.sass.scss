@@ -381,6 +381,9 @@ html, body {
     }
   }
 
+  .comments_items_wrapper{
+    overflow-y: auto; max-height: 500px;
+  }
   .comments_container {
     @include card; padding: $space-16;
 
@@ -507,7 +510,7 @@ html, body {
 }
 
 .new-comment-form{
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   gap: 10px;
 }
